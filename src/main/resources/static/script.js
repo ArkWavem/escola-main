@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://localhost:8080/alunos')
+  fetch('http://localhost:8080/alunos')
     .then(response => response.json())
     .then(data => {
       const tbody = document.getElementById('aluno-tbody');

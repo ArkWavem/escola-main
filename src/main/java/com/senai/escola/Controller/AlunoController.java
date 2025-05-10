@@ -26,7 +26,7 @@ public class AlunoController {
         return alunoService.buscarAlunoId(id);
     }
 
-    @PostMapping("/{id}")
+    @PostMapping
     public Aluno criarAluno(@RequestBody Aluno aluno) {
         return alunoService.salvaAluno(aluno);
     }

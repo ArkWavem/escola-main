@@ -2,9 +2,10 @@ package com.senai.escola.Service;
 
 import com.senai.escola.Interface.AlunoRepository;
 import com.senai.escola.model.Aluno;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class AlunoService {
 
     private final AlunoRepository _repository;
